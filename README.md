@@ -1,5 +1,7 @@
 # Employee-Tracker-SQL
 
+## Objective
+
 The purpose of this activity is to create a Content Management Systems interface for keeping track of a database that stores employee information. This Employee Tracker is a command-line application that utilizes Inquirer, Node.js, and MySQL. Using this application a user is able to view, create, or change content.  
 
 ## Criteria
