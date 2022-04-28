@@ -25,7 +25,8 @@ const viewQuestions = async () => {
                       'Add a department', 
                       'Add a role', 
                       'Add an employee', 
-                      'Update employee']
+                      'Update employee'
+                      ]
             }
           ]).then(response => {
             switch (response.options) {
@@ -55,6 +56,10 @@ const viewQuestions = async () => {
 
               case 'Update employee':
                 updateEmployee();
+                break;
+
+              case 'Remove':
+                removeData();
                 break;
             }
           })
@@ -216,8 +221,7 @@ const viewQuestions = async () => {
            })
           })
         })
-      }
-    
+      }    
     
 
     function init() {
